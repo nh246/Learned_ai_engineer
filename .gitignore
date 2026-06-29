@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments (just in case)
+venv/
+env/
+ENV/
+
+# Secrets and environment files
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models (never commit large files)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.bin
+
+# Vector DB storage (ChromaDB will create this locally)
+chroma_db/
+chroma/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
